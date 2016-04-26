@@ -1,0 +1,317 @@
+@import url(reset.css);
+
+body {
+    font:25px "Arial Black", Gadget, sans-serif;
+    color:  #000000;
+    background: url(../images/ship6.jpg) 0px 0px no-repeat;
+    background-size: cover;		
+}
+
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header{
+    text-align: center;
+    height: 60px;
+    color:  #000000;
+    font-size: 40px;
+    font-weight: 900;
+    opacity: 0.9;
+}
+
+#header2 {
+    padding-top: 12px;
+    height: 60px;
+    color:  #000000;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    opacity: 0.9;
+}
+
+#Buttons {
+    text-align: center;
+    height: 500px;
+    width:294px;
+    border: solid #000000 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    float: left;
+    opacity: 0.9;
+}
+/*----------------------btn1-----------------------*/
+#btn1{
+    margin-top: 20px;
+    width:90%;
+    text-decoration:none;
+    text-align:center;
+    padding:10px 30px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:20px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#687785;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+}#btn1:hover{
+    padding:10px 30px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:20px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#aab4bd;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+}#btn1:active{
+    padding:10px 30px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:20px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#cad7e3;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+}
+
+/*----------------------btn2-----------------------*/
+#btn2{
+    margin-top: 130px;
+    width:90%;
+    text-decoration:none;
+    text-align:center;
+    padding:10px 10px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:20px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#687785;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+}#btn2:hover{
+    padding:10px 10px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:20px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#aab4bd;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+}#btn2:active{
+    padding:10px 10px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:20px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#cad7e3;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+}
+
+/*----------------------btn3-----------------------*/
+
+#btn3{
+    margin-top: 140px;
+    width:90%;
+    text-decoration:none;
+    text-align:center;
+    padding:10px 10px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:20px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#687785;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+}#btn3:hover{
+    padding:10px 10px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:20px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#aab4bd;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+}#btn3:active{
+    padding:10px 10px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:20px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#cad7e3;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+}
+/* --------------------------------------------------------------------------*/
+#mainContent{
+    height: 500px;
+    width:900px;
+    border:solid 4px #000000;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-left: 306px;
+    opacity: 0.9;
+}
+
+#ships {
+    font-size: 20px;
+    float: left;
+    height: 500px;
+    width: 200px;
+}
+
+.deck4{
+
+    margin-top: 100px;
+    height: 40px;
+    width: 160px;
+}
+
+.deck3{
+    margin-right: 20px;
+    margin-top: 40px;
+    height: 40px;
+    width: 120px;
+}
+
+.deck2{
+    margin-right: 20px;
+    margin-top: 40px;
+    height: 40px;
+    width: 80px;
+}
+
+.deck1{
+    margin-right: 20px;
+    margin-top: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+#shipNumber {
+    float: left;
+    height: 500px;
+    width: 50px;
+}
+
+.p_deck4{
+    margin-top: 100px;    
+}
+
+.p_deck3{
+    margin-top: 45px;
+}
+
+.p_deck2{
+    margin-top: 45px;
+}
+
+.p_deck1{
+    margin-top: 45px;
+}
+
+#GamerBattlefield {
+    float: left;
+    height: 500px;
+    width: 650px;
+    margin-top:30px;
+    text-align: center;
+    font:16px "Arial Black", Gadget, sans-serif;
+}
+
+#GamerBattlefieldTable {
+    margin-left: 100px;
+    font-size: 16px;
+    float: left;
+    height: 440px;
+    width: 440px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td , th{
+    border: solid #000000 3px;
+    width: 20px;
+    background: rgba(169,169,169,0.5);   
+}
+
+.left-column {
+    font-size: 100%;
+    font-weight: 900;
+    background: rgba(169,169,169,0.5);
+}
+
+.yesShip {
+    background-color: green;
+}
+.yesLimit {
+    background-color: red;
+}

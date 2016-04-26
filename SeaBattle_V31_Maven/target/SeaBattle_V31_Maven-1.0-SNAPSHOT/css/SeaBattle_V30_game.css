@@ -1,0 +1,266 @@
+@import url(reset.css);
+
+body {
+    font:25px "Arial Black", Gadget, sans-serif;
+    color:  #1B1D23;
+    background: url(../images/ship3.jpg) 0px 0px no-repeat;
+    background-size: cover;		
+}
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    text-align: center;
+    height: 60px;
+    color:  #000000;
+    font-size: 40px;
+    font-weight: 900;
+    opacity: 0.8;
+}
+
+#Inf {
+    font-size: 14px;
+    height: 160px;
+    text-align: center;
+}
+
+#GamerInf {
+    float: left;
+    width: 500px;
+    height: 160px;
+}
+
+#ComputerInf {
+    float: right;
+    width: 500px;
+    height: 160px;
+}
+
+#PictureInf {
+    font-size: 25px;
+    margin-left: 500px;
+    width: 200px;
+    height: 160px;
+}
+
+#Battlefield{
+    font-size: 15px;
+    height: 400px;
+    text-align: center;
+}
+
+#GamerBattlefield {
+    margin-left: 40px;
+    float: left;
+    height: 385px;
+    width: 385px;
+} 
+
+#ComputerBattlefield{
+    margin-right: 40px;
+    float: right;
+    height: 385px;
+    width: 385px;
+}
+
+#GamerMove {
+    margin-left: 430px;
+    width: 340px;
+    height: 190px;
+}
+
+#ComputerMove{
+    margin-left: 430px;
+    width: 340px;
+    height: 190px;
+}
+
+#footer{
+    height: 60px;
+    text-align: center;
+} 
+
+#GamerFooter{
+    color: #B7C0D2;
+    padding-left: 25px;
+    width: 400px;
+    float: left;
+}
+
+#EndGameFooter {
+    margin-left: 425px;
+    width: 340px;
+}
+
+#ComputerFooter {
+    padding-right: 25px;
+    color: #B7C0D2;
+    width: 400px;
+    float: right;
+}
+
+/*----------------------------------------------------------*/
+
+#btn1{
+    float: left;
+    width:160px;
+    text-decoration:none;
+    text-align:center;
+    padding:10px 5px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:18px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#687785;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:0.8;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: alpha(opacity=80);
+}#btn1:hover{
+    padding:10px 5px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:18px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#aab4bd;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:0.8;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: alpha(opacity=80);
+}#btn1:active {
+    padding: 10px 5px;
+    border: solid 3px #000000;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    font: 18px "Arial Black", Gadget, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    background: #cad7e3;
+    -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity: 0.8;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: alpha(opacity=80);
+}
+
+#btn2{
+    float: right;
+    width:160px;
+    text-decoration:none;
+    text-align:center;
+    padding:10px 5px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:18px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#687785;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:0.8;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: alpha(opacity=80);
+}#btn2:hover{
+    padding:10px 5px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:18px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#aab4bd;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:0.8;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: alpha(opacity=80);
+}#btn2:active{
+    padding:10px 5px;
+    border:solid 3px #000000;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius: 6px;
+    font:18px "Arial Black", Gadget, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#cad7e3;
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:0.8;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: alpha(opacity=80);
+}
+
+#showAlreadyShoot {
+    font-size: 21px;
+}
+
+/* ----------     Стили для поля игры игрока      ----------*/
+
+table {
+    border: 3px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+    height: 100%;  
+}
+
+tr {
+    text-align: center;
+    padding-top: 1%;
+}
+
+td , th{
+    border: 3px solid;	
+    width: 5%;
+    background: rgba(169,169,169,0.5);
+}
+
+th {
+    font-size: 100%;
+    font-weight: 900;
+    background: rgba(169,169,169,0.5);
+}
+.left-column {
+    font-size: 100%;
+    font-weight: 900;
+    background: rgba(169,169,169,0.5);
+} 
+
+.yesShip {
+    background-color: green;
+}
+.yesLimit {
+    background-color: red;
+    opacity: 1;
+}
+#GamerFooter, #ComputerFooter {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+button {
+    padding: 0 0;
+    height: 100%;
+    width: 100%;
+    border: 1;
+}

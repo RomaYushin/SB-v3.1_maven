@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>print_library</short-name>
+  <uri>/WEB-INF/Print_Library</uri>
+  <!-- A validator verifies that the tags are used correctly at JSP
+          translation time. Validator entries look like this: 
+       <validator>
+           <validator-class>com.mycompany.TagLibValidator</validator-class>
+           <init-param>
+              <param-name>parameter</param-name>
+              <param-value>value</param-value>
+           </init-param>
+       </validator>
+    -->
+  <!-- A tag library can register Servlet Context event listeners in
+         case it needs to react to such events. Listener entries look
+         like this: 
+      <listener>
+          <listener-class>com.mycompany.TagLibListener</listener-class> 
+      </listener>
+    -->
+  <tag>
+    <name>printUsedBattlefieldComputer</name>
+    <tag-class>printTags.PrintUsedBattlefieldComputer</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+      <name>usedBattlefieldComp</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>sbv30.PreparationGame</type>
+    </attribute>
+  </tag>
+  
+  <tag>
+    <name>printUsedBattlefieldGamer</name>
+    <tag-class>printTags.PrintUsedBattlefieldGamer</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+      <name>usedBattlefieldGamer</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>sbv30.PreparationGame</type>
+    </attribute>
+  </tag>
+  
+  <tag>
+    <name>printBattlefieldGamer</name>
+    <tag-class>printTags.PrintBattlefieldGamer</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+      <name>battlefieldGamer</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>sbv30.PreparationGame</type>
+    </attribute>
+  </tag>
+  
+  <tag>
+    <name>printWinner</name>
+    <tag-class>printTags.PrintWinner</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+      <name>usedBattlefieldComp</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>sbv30.PreparationGame</type>
+    </attribute>
+  </tag>
+  
+    <tag>
+    <name>printGamerMove</name>
+    <tag-class>printTags.PrintGamerMove</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+      <name>isGamerHit</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>sbv30.PreparationGame</type>
+    </attribute>
+  </tag>
+  
+</taglib>
